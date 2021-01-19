@@ -55,5 +55,50 @@ body, html {
     height: 170px;
     padding: 10px;
     z-index: -2;
+}
 
+.section {
+    text-align: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    padding: 40px 0;
+}
+
+.section p {
+    text-align: justify;
+    text-justify: inner-word;
+    color: #363636;
+    font-size: 15px;
+    font-weight: 200;
+    width: 500px;
+    margin: 20px auto;
+    justify: center;
+}
+
+.detail {
+    display: none;
+}
+.detail video {
+    height: 300px;
+    padding: 20px 10px;
+}
+video:focus {
+    outline: none;
+}
+.detail h2 {
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+.section a, .section a:visited {
+    display: block;
+    color: #7c78ff;
+    font-weight: 300;
+    font-size: 17px;
+    margin: 25px 0;
+}
+
+p.blockquote {
+    font-size: 17px;
+    color: grey;
 }

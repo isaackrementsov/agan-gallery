@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="assets/css/main.css"/>
+        <script src="assets/js/jquery.min.js"></script>
+        <div class="navbar flex-container">
+            <div class="navbar-top"><h1>aGAN</h1></div>
+            <div class="navbar-bottom">
+                <div class="links flex-container">
+                    <div><a href="index.html">Gallery</a></div>
+                    <div><a href="reflection.html">Reflection</a></div>
+                    <div><a href="about.html">About</a></div>
+                </div>
+            </div>
+        </div>
+    </head>
+    <body>
+        <div class="section">
+            <h2>Can machine learning algorithms create art?</h2>
+            <p>
+                The first challenge in answering this question is that "art" does not have a formally agreed-upon definition.
+                For this discussion, I will use the definition provided by Ilya Chistiakov, a former art student I interviewed:
+            </p>
+            <p class="blockquote">
+                "Art is reality channeled through temperament"
+            </p>
+            <p>
+                This interpretation describes art in terms of its inputs (<b>reality</b>) and what goes into the output (<b>temperament</b>),
+                which poses two questions that carry over nicely to concepts in machine learning.
+            </p>
+        </div>
+        <div class="section" style="background-color: white">
+            <h3>Can an algorithm fully experience (and respond to) reality?</h3>
+            <p>
+                Almost all network architectures perform very specific tasks using very specific data. On the other hand,
+                human artists can experience all aspects of reality through sensory input, and can learn a continuum of
+                skills for responding to them.
+            </p>
+            <p>
+                The spontaneous inspirations that often drive art come from artists seeing some part of reality, thinking about
+                it, and deciding to create something as a result. What they ultimately create can rely heavily on the inspiration or have nothing to do
+                with it. It can be painted, sculpted, sketched, or carved. The artists might intend to convey the joy, sadness, indifference, or
+                frustration the inspiration gave them.
+                <br>
+                None of this flexiblity is readily available in current machine learning architectures; it has to be intentionally programmed in.
+                Even reinforcement models that experiment with environment-based optimization and neuroplasticity are designed to reach a
+                manually-defined goal according to manually-defined standards.
+            </p>
+            <p><b>
+                Until more advanced technology is available, an algorithm cannot fully experience, or respond to, reality. This significantly
+                reduces its ability to make spontaneous decisions and respond to its environment when creating art.
+            </b></p>
+        </div>
+        <div class="section">
+            <h3>Can an algorithm have a temperament?</h3>
+            <p>
+                Due to differences in training strategy, architecture, and hyperparameters, algorithms can have their own “temperaments”, in a sense.
+                However, most networks (classifiers, encoders, GANs, etc) are trained so that their outputs converge to a particular target,
+                meaning their “temperaments” are rarely as varied as those in human artists.
+            </p>
+            <p>
+                Human temperament is typically impacted by personal experiences and perspectives on life, which vary significantly from person to person.
+                This makes the work of each artist "original" and interesting, since it conveys unique aspects of their individual character.
+            </p>
+            <p>
+                An algorithm's "temperament", on the other hand, is entirely driven by the task it is designed to perform –
+                The training process simply consists of adjusting parameters to minimize a cost function. This leaves no room for any real "individuality",
+                and the outputs of a fully-trained model can usually be predicted in advance.
+            </p>
+            <p>
+                Generative Adversarial Networks (GANs) are a slight exception to this rule, since their outputs are rarely identical to the training data.
+                However, GANs are designed to produce the images that cannot be distinguished from those in the training set. So, while there is uniqueness
+                in what they generate, "individuality" is still completely absent.
+            </p>
+            <p><b>
+                Therefore, while algorithms can have something resembling a temperament,
+                it does not contribute to the artistic process in the same that it does for humans.
+            </b></p>
+        </div>
+        <div class="section" style="background-color: white">
+            <h2>Conclusion</h2>
+            <p>
+            Because it cannot fully experience reality or develop meaningful temperaments, current machine learning technology seems unable to
+            synthesize what Ilya would define as art. Future developments may change this, but the fact that computers can only work with discrete
+            objects means that it would be hard for a network to learna continuum of skills. Whether or not they satisfy the philosophical
+            requirements for true art, though, networks can certainly learn and apply artistic techniques. Existing abstract art is already
+            very good at conveying concepts “in the mind’s eye”, and I think that imitating it with neural networks could allow for meaningful
+            data visualization.
+            </p>
+        </div>
+    </body>
+    <script src="assets/js/main.js"></script>
+</html>
